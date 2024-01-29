@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Main from './Components/Main'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Navbar/>
+      <Main/>
+      <Footer/>
+    </div>
+
   )
 }
 
